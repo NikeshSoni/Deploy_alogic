@@ -1,0 +1,139 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  
+  box-sizing: border-box;
+}
+
+.background-black{
+  background-color: rgba(0,0,0,0.4);
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  margin: 0 !important;
+}
+
+
+.mar-0-auto{
+    margin: 0 auto;
+}
+      .nav-bar{
+        padding: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .ul-list{
+          display: inherit;
+         
+          li{
+            margin: 0 auto;
+            list-style: none;
+          }
+        }
+
+        .nav-icons{
+           gap: 10px;
+           cursor: pointer;
+        }
+
+          @media (max-width:991px) {
+            .responsive-bar{
+              width: 10% !important;              
+            }
+          }
+
+
+        .main-bar{
+          width: 57%;
+          cursor: pointer;
+
+       
+          }
+
+          @media (max-width:500px) {
+            .main-bar{
+              width: 100%;
+            } 
+
+              .alogic-logo{
+                width: 80% !important;
+              } 
+
+              .responsive-logo{
+                  width: 60%;
+              }
+             }
+      }
+
+
+      @media (min-width:991px) {
+
+        .main-md-width {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .main-md-width {
+            bottom: 10%;
+        }
+
+      }
+
+
+
+      .comman-size{
+        font-size: .9rem;
+      }
+      
+      .export-body{
+        width: 95%;
+
+
+        .data-wapper{
+          justify-content: space-between;
+        }
+        .gide-wapper{
+          width: 84%;
+          
+          @media (min-width:575px) {
+              width: 37%;
+          }
+          .gide-img{
+            width:85%;
+            border-radius: 10px;
+
+            @media (max-width:991px) {
+                  width: 100%;
+            }
+          }
+  
+      }
+      }
+
+      .main-footer{
+          width: 95%;
+
+          .policy-wapper{
+              border-top: 2px solid #434040;
+
+              .main-list{
+                gap: 4rem;
+            }
+          }
+      }
+
+
+
+    
+
+
+   
+

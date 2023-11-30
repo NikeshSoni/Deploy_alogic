@@ -1,0 +1,168 @@
+
+
+.comman-width {
+    width: 70%  !important;
+}
+
+@media (max-width:500px) {
+    .short-font{
+        font-size: 1rem !important;
+    }
+}
+
+.main-heading{
+    font-size: 2.5rem;
+
+    @media (max-width:820px) {
+        font-size:  2rem;
+        line-height: normal !important;
+
+    } 
+      @media (max-width:600px) {
+        font-size:  1.4rem;
+
+       
+    }
+}
+
+
+.comman-heading {
+    font-size: 3rem;
+}
+
+.export-fonts{
+    font-size: 1.4rem;
+}
+
+.main-para:hover {
+    color: #ffb129 !important;
+    transition: .5s;
+}
+
+.position-child {
+    position: absolute;
+    z-index: 999;
+}
+
+
+.comman-border-r {
+    border-radius: 15px;
+}
+.position-parent {
+    position: relative;
+
+}
+
+.comman-position-width {
+    width: 35%!important;
+}
+
+
+@media (min-width: 768px){
+   
+    .doc-heading {
+         font-size: 1.5rem;
+    }
+
+    .doc-heading {
+        overflow-x: initial;
+        font-size: 1.5rem;
+    }
+}
+
+
+.comman-heading-main {
+    overflow: hidden;
+}
+
+
+.btn-main {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 10px;
+}
+
+
+
+.main-md-width {
+    bottom: 10%;
+}
+
+.sign-bg{
+    background: #efefef;
+}
+
+
+.comman-input{
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background: transparent;
+}
+
+
+
+     @media (max-width:820px) {
+        .responsive-header{
+                position: fixed;
+                top: 60px;
+                z-index: 999;
+                background: black;
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                transition: 1.5s;
+
+                @media (max-width:500px) {
+                    top: 52px;
+                }
+          }
+
+          .comman-color{
+              color: #fff !important;
+          }
+          .responsive-width{
+            width: 95% !important;
+          }
+
+          .comman-links{
+            border-bottom: 1px solid #fff;
+          }
+     }
+
+
+
+     .mr-right{
+        gap: 15px;
+    }
+
+
+
+     .main-wapper{
+        .new-arrival-width{
+            width: 49%;
+
+            @media (max-width:768px) {
+                width: 100%;
+            }
+    }
+     }
+
+
+
+    .main-arrival{
+        bottom: 0px;
+        background: rgba(0,0,0,0.16);
+        width: 100%;     
+     }
+
+     .banner{
+        width: 95%;
+     }
+
+     .main-col{
+        width: 100%;
+     }
